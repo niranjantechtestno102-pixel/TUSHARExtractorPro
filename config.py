@@ -37,8 +37,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "818269274"))
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "818269274").split()))
 # ------------------------------------------------
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001476904215"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1004411416273"))
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://NiruTech:Niru#123@cluster0.itmxbk1.mongodb.net/?retryWrites=true&w=majority")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1001476904215"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1004411416273"))
